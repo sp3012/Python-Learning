@@ -14,6 +14,7 @@ def cache_return (func):
         return result 
     return wrapper
 
+
 @cache_return
 def add (*args):
     return sum(args)
