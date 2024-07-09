@@ -19,5 +19,6 @@ def cache_return (func):
 def add (*args):
     return sum(args)
 
+
 print(add(3, 6, 4, 6, 7, 10))
 print(add(3, 6, 4, 6, 7, 10))
