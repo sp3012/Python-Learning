@@ -39,7 +39,7 @@ listTwo = listOne
 listTwo = [1, 2, 3]
 
 listOne[0] = 33
-ooutput: listOne = [33, 2, 3]
+output: listOne = [33, 2, 3]
 listTwo = [1, 2, 3]
 # ab kuki bhale hi humne starting me ek hi list ka refrence dya tha starting me but fir angli line me ek or new list create krke uska refrence dya listTwo ko. isliye listOne change hui na ki listTwo.
 
@@ -89,6 +89,42 @@ to ooper wala comprehensive jo h wo x ko lega 0 to 9 then it will perform its sq
 --- square_num = { x:x**2 for x in range(5)}
 yaha per hume key ko bhi dena hota hai kuki dictionary me list k jaise by default key nahi milti hume assign krni hoti hai.
 
-# ********** TUPLES **********
+# ********** TUPLES  & SETS  **********
 
 Same as List, But tuples are immutable.
+
+Sets: Defined using curly braces {} or the set() function
+Tuples: Defined using parentheses ()
+
+Order:
+    Sets: Unordered collections of unique elements. The order of elements is not guaranteed to be preserved.
+    Tuples: Ordered collections of elements. The order of elements is preserved.
+
+Element Uniqueness:
+    Sets: Only store unique elements. If duplicate elements are added, they are automatically removed.
+    Tuples: Can store duplicate elements
+
+Use Cases:
+    Sets: Used when you need a collection of unique items and need to perform operations like union, intersection, and difference.
+    Tuples: Used when you need an ordered collection of items that should not change.
+
+Methods:
+    Sets: Have methods for modifying the set, like add(), remove(), union(), intersection(), etc.
+    Tuples: Have fewer methods, mainly for counting and finding elements, like count() and index().
+
+Memory Consumption:
+    Sets: Generally consume more memory due to the requirement to maintain unique elements and support dynamic operations.
+    Tuples: Consume less memory because they are immutable and do not need extra overhead.
+
+Hashability:
+    Sets: Not hashable themselves, but they can contain hashable elements.
+    Tuples: Hashable if all their elements are hashable, allowing them to be used as keys in dictionaries.
+
+# Hashable
+ Hashable objects in Python have a constant hash value and can be compared for equality, making them suitable for use as dictionary keys and set elements. Immutable objects are typically hashable, while mutable objects are not.
+
+
+
+
+
+

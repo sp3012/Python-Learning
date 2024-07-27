@@ -1,4 +1,4 @@
-# we are importing shubham function fro basics file and running it here.
+# we are importing shubham function from basics file and running it here.
 
 from basics import shubham
 

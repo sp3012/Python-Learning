@@ -18,7 +18,15 @@ Iterator: An iterator is an object that implements the __next__() method, which 
     else: Optional block executed if the loop completes normally (i.e., no break).
 
 --> enumerate(): To get index and value while iterating:
+enumerate
+    Purpose: Adds a counter to an iterable and returns it as an enumerate object, which can be converted into a list of tuples. Each tuple contains an index and the corresponding element from the iterable.
+    Usage: Useful when you need both the index and the value while iterating over a list or any other iterable.
+
+
 --> zip(): To iterate over multiple iterables in parallel:
+zip
+    Purpose: Takes multiple iterables and returns an iterator that generates tuples containing elements from each iterable, paired together. The iteration stops when the shortest input iterable is exhausted.
+    Usage: Useful for combining multiple iterables into tuples.
 
 ---------- LOOP on DICTIONERIES ----------
 

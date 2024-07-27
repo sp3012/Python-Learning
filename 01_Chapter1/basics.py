@@ -23,6 +23,9 @@
 # formatted = letter.format("Shubham", "20/06/2024")
 # print(formatted)
 
-# Write a program to detect double space in a string
-name = input("Enter your name")
-print()
+print(hash(42))
+
+try:
+    print(hash([1, 2, 3]))  # Lists are unhashable
+except TypeError as e:
+    print(e)
