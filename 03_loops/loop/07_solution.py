@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 7. Sum of Digits: Write a Python program to calculate the sum of digits of a number using a while loop.
 
 number = 1898734
@@ -7,4 +8,15 @@ for i in str(number):
     integer = int(i)
     sum += integer
     
+=======
+# 7. Sum of Digits: Write a Python program to calculate the sum of digits of a number using a while loop.
+
+number = 1898734
+sum = 0
+
+for i in str(number):
+    integer = int(i)
+    sum += integer
+    
+>>>>>>> 1572a0ca7fbf37fdd673ee612c85c19d878933a9
 print(sum)

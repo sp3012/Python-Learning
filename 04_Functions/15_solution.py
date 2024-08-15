@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 15. Define a function count_vowels that counts the number of vowels in a given string.
 
 # def count_vowels (item):
@@ -19,3 +20,15 @@ def vowel_count (item):
         return "Not present"
     
 print(vowel_count("s"))
+=======
+# 15. Define a function count_vowels that counts the number of vowels in a given string.
+
+def count_vowels (item):
+    count = 0
+    for i in item:
+        if i == "a" or i == "e" or i == "i" or i == "o" or i == "u":
+            count += 1
+    return count
+        
+print(count_vowels("mona"))
+>>>>>>> 1572a0ca7fbf37fdd673ee612c85c19d878933a9
